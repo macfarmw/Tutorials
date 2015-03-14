@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{26DF0B50-8237-479D-85C8-1D6EBE961F58}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CameronHtml5</RootNamespace>
+    <AssemblyName>CameronHtml5</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chapter10\.DS_Store" />
+    <Content Include="chapter12\.DS_Store" />
+    <Content Include="chapter12\tasks.appcache" />
+    <Content Include="chapter13\tasks.appcache" />
+    <Content Include="chapter13\tasks.csv" />
+    <Content Include="chapter14\tasks.appcache" />
+    <Content Include="chapter14\tasks.csv" />
+    <Content Include="chapter15\server\tasks.json" />
+    <Content Include="chapter15\tasks.appcache" />
+    <Content Include="chapter15\tasks.csv" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chapter10\scripts\jquery-2.0.3.js" />
+    <Content Include="chapter10\scripts\jquery-serialization.js" />
+    <Content Include="chapter10\scripts\jquery-tmpl.js" />
+    <Content Include="chapter10\scripts\jquery.validate.js" />
+    <Content Include="chapter10\scripts\tasks-controller.js" />
+    <Content Include="chapter10\scripts\tasks-indexeddb.js" />
+    <Content Include="chapter10\scripts\tasks-webstorage.js" />
+    <Content Include="chapter10\styles\tasks.css" />
+    <Content Include="chapter10\tasks.html" />
+    <Content Include="chapter04\styles\tasks.css" />
+    <Content Include="chapter04\tasks.html" />
+    <Content Include="chapter06\scripts\jquery-2.0.3.js" />
+    <Content Include="chapter06\scripts\jquery-tmpl.js" />
+    <Content Include="chapter06\styles\tasks.css" />
+    <Content Include="chapter06\tasks.html" />
+    <Content Include="chapter09\chapter9\scripts\jquery-2.0.3.js" />
+    <Content Include="chapter09\chapter9\scripts\jquery-serialization.js" />
+    <Content Include="chapter09\chapter9\scripts\jquery-tmpl.js" />
+    <Content Include="chapter09\chapter9\scripts\jquery.validate.js" />
+    <Content Include="chapter09\chapter9\scripts\tasks-controller.js" />
+    <Content Include="chapter09\chapter9\styles\tasks.css" />
+    <Content Include="chapter09\chapter9\tasks.html" />
+    <Content Include="chapter11\scripts\date.js" />
+    <Content Include="chapter11\scripts\jquery-2.0.3.js" />
+    <Content Include="chapter11\scripts\jquery-serialization.js" />
+    <Content Include="chapter11\scripts\jquery-tmpl.js" />
+    <Content Include="chapter11\scripts\jquery.validate.js" />
+    <Content Include="chapter11\scripts\tasks-controller.js" />
+    <Content Include="chapter11\scripts\tasks-indexeddb.js" />
+    <Content Include="chapter11\scripts\tasks-webstorage.js" />
+    <Content Include="chapter11\styles\tasks.css" />
+    <Content Include="chapter11\tasks.html" />
+    <Content Include="chapter12\scripts\date.js" />
+    <Content Include="chapter12\scripts\jquery-2.0.3.js" />
+    <Content Include="chapter12\scripts\jquery-serialization.js" />
+    <Content Include="chapter12\scripts\jquery-tmpl.js" />
+    <Content Include="chapter12\scripts\jquery.validate.js" />
+    <Content Include="chapter12\scripts\tasks-controller.js" />
+    <Content Include="chapter12\scripts\tasks-indexeddb.js" />
+    <Content Include="chapter12\scripts\tasks-webstorage.js" />
+    <Content Include="chapter12\styles\tasks.css" />
+    <Content Include="chapter12\tasks.html" />
+    <Content Include="chapter13\scripts\date.js" />
+    <Content Include="chapter13\scripts\jquery-2.0.3.js" />
+    <Content Include="chapter13\scripts\jquery-serialization.js" />
+    <Content Include="chapter13\scripts\jquery-tmpl.js" />
+    <Content Include="chapter13\scripts\jquery.csv-0.71.js" />
+    <Content Include="chapter13\scripts\jquery.validate.js" />
+    <Content Include="chapter13\scripts\tasks-controller.js" />
+    <Content Include="chapter13\scripts\tasks-indexeddb.js" />
+    <Content Include="chapter13\scripts\tasks-webstorage.js" />
+    <Content Include="chapter13\styles\tasks.css" />
+    <Content Include="chapter13\tasks.html" />
+    <Content Include="chapter14\scripts\date.js" />
+    <Content Include="chapter14\scripts\jquery-2.0.3.js" />
+    <Content Include="chapter14\scripts\jquery-serialization.js" />
+    <Content Include="chapter14\scripts\jquery-tmpl.js" />
+    <Content Include="chapter14\scripts\jquery.csv-0.71.js" />
+    <Content Include="chapter14\scripts\jquery.validate.js" />
+    <Content Include="chapter14\scripts\tasks-controller.js" />
+    <Content Include="chapter14\scripts\tasks-csvparser.js" />
+    <Content Include="chapter14\scripts\tasks-indexeddb.js" />
+    <Content Include="chapter14\scripts\tasks-webstorage.js" />
+    <Content Include="chapter14\styles\tasks.css" />
+    <Content Include="chapter14\tasks.html" />
+    <Content Include="chapter15\scripts\date.js" />
+    <Content Include="chapter15\scripts\jquery-2.0.3.js" />
+    <Content Include="chapter15\scripts\jquery-serialization.js" />
+    <Content Include="chapter15\scripts\jquery-tmpl.js" />
+    <Content Include="chapter15\scripts\jquery.csv-0.71.js" />
+    <Content Include="chapter15\scripts\jquery.validate.js" />
+    <Content Include="chapter15\scripts\tasks-controller.js" />
+    <Content Include="chapter15\scripts\tasks-csvparser.js" />
+    <Content Include="chapter15\scripts\tasks-indexeddb.js" />
+    <Content Include="chapter15\scripts\tasks-webstorage.js" />
+    <Content Include="chapter15\styles\tasks.css" />
+    <Content Include="chapter15\tasks.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64349</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64349/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
