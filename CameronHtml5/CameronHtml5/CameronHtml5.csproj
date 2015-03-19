@@ -75,6 +75,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="chapter06\tasks.html" />
     <Content Include="chapter10\scripts\jquery-2.0.3.js" />
     <Content Include="chapter10\scripts\jquery-serialization.js" />
     <Content Include="chapter10\scripts\jquery-tmpl.js" />
@@ -89,14 +90,14 @@
     <Content Include="chapter06\scripts\jquery-2.0.3.js" />
     <Content Include="chapter06\scripts\jquery-tmpl.js" />
     <Content Include="chapter06\styles\tasks.css" />
-    <Content Include="chapter06\tasks.html" />
-    <Content Include="chapter09\chapter9\scripts\jquery-2.0.3.js" />
-    <Content Include="chapter09\chapter9\scripts\jquery-serialization.js" />
-    <Content Include="chapter09\chapter9\scripts\jquery-tmpl.js" />
-    <Content Include="chapter09\chapter9\scripts\jquery.validate.js" />
-    <Content Include="chapter09\chapter9\scripts\tasks-controller.js" />
-    <Content Include="chapter09\chapter9\styles\tasks.css" />
-    <Content Include="chapter09\chapter9\tasks.html" />
+    <Content Include="chapter06\tasks.after.html" />
+    <Content Include="chapter09\scripts\jquery-2.0.3.js" />
+    <Content Include="chapter09\scripts\jquery-serialization.js" />
+    <Content Include="chapter09\scripts\jquery-tmpl.js" />
+    <Content Include="chapter09\scripts\jquery.validate.js" />
+    <Content Include="chapter09\scripts\tasks-controller.js" />
+    <Content Include="chapter09\styles\tasks.css" />
+    <Content Include="chapter09\tasks.html" />
     <Content Include="chapter11\scripts\date.js" />
     <Content Include="chapter11\scripts\jquery-2.0.3.js" />
     <Content Include="chapter11\scripts\jquery-serialization.js" />
